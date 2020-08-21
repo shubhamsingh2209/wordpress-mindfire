@@ -1,0 +1,48 @@
+
+
+ body{
+    background-color: #ffffff;
+ }
+ header{
+     background-color: #111;
+     height: 100px;
+     width: 100%;
+ }
+ .page-wrap{
+     padding: 2em 0;
+ }
+
+ header .blog{
+     list-style-type: none;
+     margin: 0px;
+     padding: 10px;
+     display: flex;
+ }
+ header .container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ header .blog li a{
+    padding: 1rem 1rem;
+    color: white;
+
+ }
+
+ header .blog li:first-child a{
+    padding-left: 0px;
+ }
+
+ header .blog li:last-child a{
+    padding-right: 0px;
+ }
+ .commentlist > li.comment {
+ 
+    background: #99ccff;
+    border: 3px solid #ddd;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 0 0 1.625em;
+    padding: 1.625em;
+    position: relative;
+}
